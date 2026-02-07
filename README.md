@@ -274,20 +274,4 @@ src/main/resources/
 └── seed-data.json
 ```
 
-## Future Enhancements
 
-Potential improvements for bonus points:
-
-- **Elasticsearch Integration** - Better search with ranking
-- **Semantic Search** - Using embeddings for relevance
-- **Fuzzy Matching** - Tolerate spelling mistakes
-- **Pagination** - For large result sets
-- **Caching** - Redis for frequently accessed data
-
-## Support
-
-For issues or questions, please create an issue in the GitHub repository.
-
-## License
-
-This project is created as an assignment for evaluation purposes.
