@@ -1,0 +1,144 @@
+{
+  "courses": [
+    {
+      "id": "physics-101",
+      "title": "Introduction to Physics",
+      "description": "Fundamental concepts of motion, forces, and energy.",
+      "topics": [
+        {
+          "id": "kinematics",
+          "title": "Kinematics",
+          "subtopics": [
+            {
+              "id": "speed",
+              "title": "Speed",
+              "content": "# Speed\n\nSpeed is the distance travelled per unit time.\n\nIt is a scalar quantity, meaning it has magnitude but no direction.\n\n## Formula\n\n```\nSpeed = Distance / Time\n```\n\n## Units\n\n- Meters per second (m/s)\n- Kilometers per hour (km/h)\n- Miles per hour (mph)\n\n## Example\n\nIf a car travels 100 km in 2 hours, its average speed is 50 km/h."
+            },
+            {
+              "id": "velocity",
+              "title": "Velocity",
+              "content": "# Velocity\n\nVelocity is the rate of change of displacement with respect to time.\n\nUnlike speed, velocity is a vector quantity - it has both magnitude and direction.\n\n## Formula\n\n```\nVelocity = Displacement / Time\n```\n\n## Key Differences from Speed\n\n- Velocity includes direction\n- Velocity can be negative\n- Average velocity can be zero even if distance was covered\n\n## Example\n\nA car moving east at 60 km/h has a velocity of +60 km/h (if east is positive)."
+            },
+            {
+              "id": "acceleration",
+              "title": "Acceleration",
+              "content": "# Acceleration\n\nAcceleration is the rate of change of velocity with respect to time.\n\n## Formula\n\n```\nAcceleration = Change in Velocity / Time\na = (v - u) / t\n```\n\nWhere:\n- a = acceleration\n- v = final velocity\n- u = initial velocity\n- t = time\n\n## Types\n\n1. **Positive acceleration**: Velocity increasing\n2. **Negative acceleration (deceleration)**: Velocity decreasing\n3. **Uniform acceleration**: Constant rate of change\n\n## Example\n\nA car accelerates from 0 to 100 km/h in 10 seconds."
+            }
+          ]
+        },
+        {
+          "id": "dynamics",
+          "title": "Dynamics",
+          "subtopics": [
+            {
+              "id": "newtons-first-law",
+              "title": "Newton's First Law",
+              "content": "# Newton's First Law of Motion\n\nAlso known as the **Law of Inertia**.\n\n## Statement\n\n> An object at rest stays at rest, and an object in motion stays in motion with the same speed and direction, unless acted upon by an external force.\n\n## Inertia\n\nInertia is the tendency of an object to resist changes in its state of motion.\n\n- Mass is a measure of inertia\n- Greater mass = greater inertia\n\n## Examples\n\n- A book on a table remains at rest\n- A hockey puck sliding on ice continues moving\n- Passengers lurch forward when a car suddenly stops"
+            },
+            {
+              "id": "newtons-second-law",
+              "title": "Newton's Second Law",
+              "content": "# Newton's Second Law of Motion\n\n## Statement\n\nThe acceleration of an object is directly proportional to the net force acting on it and inversely proportional to its mass.\n\n## Formula\n\n```\nF = ma\n```\n\nWhere:\n- F = force (Newtons)\n- m = mass (kg)\n- a = acceleration (m/s²)\n\n## Key Points\n\n- More force → more acceleration\n- More mass → less acceleration\n- Force and acceleration are in the same direction\n\n## Example\n\nA 10 kg object experiencing a 50 N force will accelerate at 5 m/s²."
+            },
+            {
+              "id": "newtons-third-law",
+              "title": "Newton's Third Law",
+              "content": "# Newton's Third Law of Motion\n\n## Statement\n\n> For every action, there is an equal and opposite reaction.\n\n## Key Points\n\n- Forces always occur in pairs\n- Action and reaction forces:\n  - Are equal in magnitude\n  - Are opposite in direction\n  - Act on different objects\n\n## Examples\n\n- Walking: You push the ground backward, the ground pushes you forward\n- Swimming: You push water backward, water pushes you forward\n- Rocket propulsion: Rocket pushes gas downward, gas pushes rocket upward\n\n## Important Note\n\nAction and reaction forces do NOT cancel each other because they act on different objects."
+            }
+          ]
+        },
+        {
+          "id": "work-energy",
+          "title": "Work and Energy",
+          "subtopics": [
+            {
+              "id": "work",
+              "title": "Work",
+              "content": "# Work\n\nIn physics, work is done when a force causes displacement.\n\n## Formula\n\n```\nW = F × d × cos(θ)\n```\n\nWhere:\n- W = work (Joules)\n- F = force (Newtons)\n- d = displacement (meters)\n- θ = angle between force and displacement\n\n## Conditions for Work\n\n1. Force must be applied\n2. Object must move\n3. Movement must have a component in the direction of the force\n\n## Examples\n\n- Lifting a book: Positive work\n- Pushing a wall that doesn't move: Zero work\n- Friction opposing motion: Negative work"
+            },
+            {
+              "id": "kinetic-energy",
+              "title": "Kinetic Energy",
+              "content": "# Kinetic Energy\n\nKinetic energy is the energy possessed by an object due to its motion.\n\n## Formula\n\n```\nKE = ½mv²\n```\n\nWhere:\n- KE = kinetic energy (Joules)\n- m = mass (kg)\n- v = velocity (m/s)\n\n## Key Points\n\n- Depends on mass and the square of velocity\n- Doubling velocity quadruples kinetic energy\n- Always positive (velocity is squared)\n\n## Example\n\nA 2 kg ball moving at 10 m/s has kinetic energy:\nKE = ½ × 2 × 10² = 100 J"
+            },
+            {
+              "id": "potential-energy",
+              "title": "Potential Energy",
+              "content": "# Potential Energy\n\nPotential energy is stored energy due to position or configuration.\n\n## Gravitational Potential Energy\n\n```\nPE = mgh\n```\n\nWhere:\n- PE = potential energy (Joules)\n- m = mass (kg)\n- g = gravitational acceleration (9.8 m/s²)\n- h = height (meters)\n\n## Types\n\n1. **Gravitational**: Due to height\n2. **Elastic**: Due to deformation (springs, rubber bands)\n3. **Chemical**: Stored in bonds\n4. **Nuclear**: In atomic nuclei\n\n## Conservation of Energy\n\nIn a closed system, total energy (kinetic + potential) remains constant.\n\n## Example\n\nA 5 kg book on a 2 m shelf has:\nPE = 5 × 9.8 × 2 = 98 J"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "math-101",
+      "title": "Basic Mathematics for Problem Solving",
+      "description": "Core mathematical concepts used in science and everyday problem solving.",
+      "topics": [
+        {
+          "id": "algebra",
+          "title": "Algebra Fundamentals",
+          "subtopics": [
+            {
+              "id": "variables",
+              "title": "Variables and Expressions",
+              "content": "# Variables and Expressions\n\nA variable is a symbol (usually a letter) that represents an unknown or changing value.\n\n## Algebraic Expressions\n\nCombinations of variables, numbers, and operations.\n\n### Examples\n\n- `3x + 5`\n- `2a - 7b`\n- `x² + 4x + 4`\n\n## Terms\n\n- **Coefficient**: Number multiplying a variable (in 5x, coefficient is 5)\n- **Constant**: A fixed value (in x + 7, constant is 7)\n- **Like terms**: Terms with the same variable and exponent\n\n## Simplifying Expressions\n\nCombine like terms:\n- `3x + 5x = 8x`\n- `4y - 2y + 3 = 2y + 3`"
+            },
+            {
+              "id": "equations",
+              "title": "Solving Linear Equations",
+              "content": "# Solving Linear Equations\n\nA linear equation is an equation where the highest power of the variable is 1.\n\n## Standard Form\n\n```\nax + b = c\n```\n\n## Steps to Solve\n\n1. Simplify both sides\n2. Isolate the variable term\n3. Solve for the variable\n\n## Example\n\nSolve: `2x + 5 = 13`\n\n```\n2x + 5 = 13\n2x = 13 - 5\n2x = 8\nx = 4\n```\n\n## Checking Solution\n\nSubstitute back:\n`2(4) + 5 = 8 + 5 = 13 ✓`"
+            },
+            {
+              "id": "inequalities",
+              "title": "Inequalities",
+              "content": "# Inequalities\n\nInequalities compare two expressions using symbols like <, >, ≤, ≥.\n\n## Symbols\n\n- `<` : less than\n- `>` : greater than\n- `≤` : less than or equal to\n- `≥` : greater than or equal to\n\n## Solving Inequalities\n\nSame rules as equations, BUT:\n\n**Important**: When multiplying or dividing by a negative number, flip the inequality sign.\n\n## Example\n\nSolve: `3x - 5 > 10`\n\n```\n3x - 5 > 10\n3x > 15\nx > 5\n```\n\nSolution: All numbers greater than 5."
+            }
+          ]
+        },
+        {
+          "id": "geometry",
+          "title": "Basic Geometry",
+          "subtopics": [
+            {
+              "id": "angles",
+              "title": "Angles",
+              "content": "# Angles\n\nAn angle is formed when two rays share a common endpoint.\n\n## Types of Angles\n\n1. **Acute**: Less than 90°\n2. **Right**: Exactly 90°\n3. **Obtuse**: Between 90° and 180°\n4. **Straight**: Exactly 180°\n5. **Reflex**: Between 180° and 360°\n\n## Angle Relationships\n\n- **Complementary**: Two angles that sum to 90°\n- **Supplementary**: Two angles that sum to 180°\n- **Vertical angles**: Opposite angles formed by intersecting lines (equal)\n\n## Measuring Angles\n\nAngles are measured in degrees (°) or radians."
+            },
+            {
+              "id": "triangles",
+              "title": "Triangles",
+              "content": "# Triangles\n\nA triangle is a polygon with three sides and three angles.\n\n## Properties\n\n- Sum of interior angles = 180°\n- Sum of any two sides > third side\n\n## Types by Sides\n\n1. **Equilateral**: All sides equal\n2. **Isosceles**: Two sides equal\n3. **Scalene**: All sides different\n\n## Types by Angles\n\n1. **Acute**: All angles < 90°\n2. **Right**: One angle = 90°\n3. **Obtuse**: One angle > 90°\n\n## Area Formula\n\n```\nArea = ½ × base × height\n```"
+            },
+            {
+              "id": "circles",
+              "title": "Circles",
+              "content": "# Circles\n\nA circle is the set of all points equidistant from a center point.\n\n## Key Terms\n\n- **Radius (r)**: Distance from center to edge\n- **Diameter (d)**: Distance across through center (d = 2r)\n- **Circumference (C)**: Distance around the circle\n- **π (pi)**: Ratio of circumference to diameter (≈ 3.14159)\n\n## Formulas\n\n### Circumference\n```\nC = 2πr = πd\n```\n\n### Area\n```\nA = πr²\n```\n\n## Example\n\nCircle with radius 5 cm:\n- Circumference = 2π(5) ≈ 31.4 cm\n- Area = π(5²) ≈ 78.5 cm²"
+            }
+          ]
+        },
+        {
+          "id": "functions",
+          "title": "Functions and Graphs",
+          "subtopics": [
+            {
+              "id": "functions-intro",
+              "title": "Introduction to Functions",
+              "content": "# Introduction to Functions\n\nA function is a relation where each input has exactly one output.\n\n## Notation\n\n```\nf(x) = 2x + 3\n```\n\n- `f` is the function name\n- `x` is the input variable\n- `2x + 3` is the rule\n\n## Domain and Range\n\n- **Domain**: Set of all possible input values\n- **Range**: Set of all possible output values\n\n## Example\n\nFor `f(x) = x²`:\n- `f(3) = 9`\n- `f(-2) = 4`\n- `f(0) = 0`"
+            },
+            {
+              "id": "linear-functions",
+              "title": "Linear Functions",
+              "content": "# Linear Functions\n\nA linear function has the form `f(x) = mx + b`.\n\n## Components\n\n- **m**: Slope (rate of change)\n- **b**: y-intercept (value when x = 0)\n\n## Slope\n\n```\nm = (y₂ - y₁) / (x₂ - x₁)\n```\n\nSlope represents:\n- Rise over run\n- Rate of change\n- Steepness of the line\n\n## Graphing\n\n1. Plot the y-intercept (0, b)\n2. Use the slope to find another point\n3. Draw a line through the points\n\n## Example\n\n`f(x) = 2x + 1`\n- Slope = 2 (rises 2 units for every 1 unit right)\n- y-intercept = 1"
+            },
+            {
+              "id": "quadratic-functions",
+              "title": "Quadratic Functions",
+              "content": "# Quadratic Functions\n\nA quadratic function has the form `f(x) = ax² + bx + c`.\n\n## Properties\n\n- Graph is a parabola\n- Has a vertex (highest or lowest point)\n- Axis of symmetry\n\n## Vertex Form\n\n```\nf(x) = a(x - h)² + k\n```\n\nVertex is at point (h, k)\n\n## Finding Roots (Zeros)\n\nUse the quadratic formula:\n\n```\nx = [-b ± √(b² - 4ac)] / 2a\n```\n\n## Direction\n\n- If a > 0: Parabola opens upward\n- If a < 0: Parabola opens downward\n\n## Example\n\n`f(x) = x² - 4x + 3`\n- Opens upward (a = 1 > 0)\n- Roots at x = 1 and x = 3"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
